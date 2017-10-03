@@ -1,7 +1,7 @@
 {
   "name": "gm-reloaded",
   "description": "GraphicsMagick and ImageMagick for node.js",
-  "version": "1.23.0",
+  "version": "1.24.0",
   "keywords": [
     "graphics",
     "magick",
