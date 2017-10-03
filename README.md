@@ -1,5 +1,5 @@
 
-# gm-reloaded [![Build Status](https://travis-ci.org/vladikoff/gm-reloaded.png?branch=master)](https://travis-ci.org/vladikoff/gm-reloaded)  [![NPM Version](https://img.shields.io/npm/v/gm.svg?style=flat)](https://www.npmjs.org/package/gm)
+# gm-reloaded [![Build Status](https://travis-ci.org/vladikoff/gm-reloaded.svg?branch=master)](https://travis-ci.org/vladikoff/gm-reloaded)  [![NPM Version](https://img.shields.io/npm/v/gm-reloaded.svg?style=flat)](https://www.npmjs.org/package/gm)
 
 ## Fork of http://aheckmann.github.com/gm/
 
