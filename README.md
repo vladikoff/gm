@@ -1,5 +1,7 @@
 
-# gm [![Build Status](https://travis-ci.org/aheckmann/gm.png?branch=master)](https://travis-ci.org/aheckmann/gm)  [![NPM Version](https://img.shields.io/npm/v/gm.svg?style=flat)](https://www.npmjs.org/package/gm)
+# gm-reloaded [![Build Status](https://travis-ci.org/vladikoff/gm-reloaded.png?branch=master)](https://travis-ci.org/vladikoff/gm-reloaded)  [![NPM Version](https://img.shields.io/npm/v/gm.svg?style=flat)](https://www.npmjs.org/package/gm)
+
+## Fork of http://aheckmann.github.com/gm/
 
 GraphicsMagick and ImageMagick for node
 
@@ -23,7 +25,7 @@ then either use npm:
 
 or clone the repo:
 
-    git clone git://github.com/aheckmann/gm.git
+    git clone git://github.com/vladikoff/gm-reloaded.git
 
 
 ## Use ImageMagick instead of gm
@@ -303,12 +305,12 @@ since `%m` is the format option for getting the image file format.
 
 ## Platform differences
 
-Please document and refer to any [platform or ImageMagick/GraphicsMagick issues/differences here](https://github.com/aheckmann/gm/wiki/GraphicsMagick-and-ImageMagick-versions).
+Please document and refer to any [platform or ImageMagick/GraphicsMagick issues/differences here](https://github.com/vladikoff/gm-reloaded/wiki/GraphicsMagick-and-ImageMagick-versions).
 
 ## Examples:
 
-  Check out the [examples](http://github.com/aheckmann/gm/tree/master/examples/) directory to play around.
-  Also take a look at the [extending gm](http://wiki.github.com/aheckmann/gm/extending-gm)
+  Check out the [examples](http://github.com/vladikoff/gm-reloaded/tree/master/examples/) directory to play around.
+  Also take a look at the [extending gm](http://wiki.github.com/vladikoff/gm-reloaded/extending-gm)
   page to see how to customize gm to your own needs.
 
 ## Constructor:
@@ -317,7 +319,7 @@ Please document and refer to any [platform or ImageMagick/GraphicsMagick issues/
 
   - 1) `gm(path)` When you pass a string as the first argument it is interpreted as the path to an image you intend to manipulate.
   - 2) `gm(stream || buffer, [filename])` You may also pass a ReadableStream or Buffer as the first argument, with an optional file name for format inference.
-  - 3) `gm(width, height, [color])` When you pass two integer arguments, gm will create a new image on the fly with the provided dimensions and an optional background color. And you can still chain just like you do with pre-existing images too. See [here](http://github.com/aheckmann/gm/blob/master/examples/new.js) for an example.
+  - 3) `gm(width, height, [color])` When you pass two integer arguments, gm will create a new image on the fly with the provided dimensions and an optional background color. And you can still chain just like you do with pre-existing images too. See [here](http://github.com/vladikoff/gm-reloaded/blob/master/examples/new.js) for an example.
 
 The links below refer to an older version of gm but everything should still work, if anyone feels like updating them please make a PR
 
@@ -615,13 +617,13 @@ gm('/path/to/image.jpg')
 ```
 
 ## Contributors
-[https://github.com/aheckmann/gm/contributors](https://github.com/aheckmann/gm/contributors)
+[https://github.com/vladikoff/gm-reloaded/contributors](https://github.com/vladikoff/gm-reloaded/contributors)
 
 ## Inspiration
 http://github.com/quiiver/magickal-node
 
 ## Plugins
-[https://github.com/aheckmann/gm/wiki](https://github.com/aheckmann/gm/wiki)
+[https://github.com/vladikoff/gm-reloaded/wiki](https://github.com/vladikoff/gm-reloaded/wiki)
 
 ## License
 
